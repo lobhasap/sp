@@ -1,0 +1,8 @@
+
+
+START:
+    LOAD X
+    MOV A, B
+    ADD A, C
+    STORE Y
+END

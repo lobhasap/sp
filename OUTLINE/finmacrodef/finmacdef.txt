@@ -1,0 +1,16 @@
+MACRO ADD_TWO &A, &B
+    LOAD &A
+    ADD &B
+    #VAR1
+MEND
+
+MACRO MUL_TWO &X, &Y=2
+    MUL &X, &Y
+    #VAR2
+    $SYM1
+MEND
+
+MACRO PRINT_MSG &MSG
+    PRINT &MSG
+    #VAR3
+MEND

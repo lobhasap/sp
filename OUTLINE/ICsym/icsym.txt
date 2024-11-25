@@ -1,0 +1,8 @@
+START 100
+MOV A, B
+ADD A, =10
+SUB A, 5
+DC 5
+DS 3
+MOV B, C
+END
