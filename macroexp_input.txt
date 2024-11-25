@@ -1,0 +1,11 @@
+
+MACRO ADD_TWO
+    MOV A, B
+    ADD A, C
+MEND
+
+START:
+    LOAD X
+    ADD_TWO
+    STORE Y
+END
